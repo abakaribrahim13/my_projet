@@ -1,0 +1,78 @@
+#logo{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 80%;
+    top:1%; 
+}
+*{
+    box-sizing : border-box;
+    
+}
+
+
+aside{
+    position: absolute;
+    top: 0;
+    /*right: 80%;*/
+    bottom : 0;
+    background : #444;
+    min-width : 200px;
+}
+nav.menu{
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #eaeaed;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+.menu a{
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 2px;
+    color: black;
+    display: block;
+}
+
+.menu a:hover{
+    color: blue;
+}
+.menu a:visited{
+    color: green;
+}
+
+section{
+    position: absolute;
+    float: right;
+    left: 25%;
+    z-index:-1;
+    min-width : 400px;
+}
+
+section h2{
+    color: green;
+    letter-spacing: 1px;
+    font-size: 2em;
+}
+
+section p{
+    float: left;
+    width: 30%;
+    text-align: justify;
+    margin: 1%;
+    padding: 10px;
+}
+
+section p::first-letter{
+    font-size: 2em;
+    color: green;
+}
+
+section :target{
+    background : #ddd;
+    border-radius : 20px;
+}
